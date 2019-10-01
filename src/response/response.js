@@ -46,6 +46,16 @@ const response = [
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Best of Rio de Janeiro',
+        image: 'rio.jpg',
+        dateFrom: 'Jan 14th 2020',
+        dateTo: 'Jan 21th 2020',
+        guests: 3,
+        category: 'weekend break',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
 ]
 
