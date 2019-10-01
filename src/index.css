@@ -80,8 +80,12 @@ body {
 .nav-option {
     display: flex;
     align-items: center;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
 }
 
-.nav-option:hover {
+.opt-wrapper:hover .nav-option {
     cursor: pointer;
+    text-shadow: 2px 2px 20px rgb(42, 143, 129);
+    transform: rotate(-360deg);
 }
