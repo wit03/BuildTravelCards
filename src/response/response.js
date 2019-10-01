@@ -36,6 +36,16 @@ const response = [
         category: 'weekend break',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Weekend at an ice hotel',
+        image: '',
+        dateFrom: 'Jan 14th 2020',
+        dateTo: 'Jan 16th 2020',
+        guests: 4,
+        category: 'family',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
 ]
 
