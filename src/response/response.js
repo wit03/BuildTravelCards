@@ -57,6 +57,16 @@ const response = [
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
+    {
+        name: 'India',
+        image: 'India.jpg',
+        dateFrom: 'Dec 2nd 2019',
+        dateTo: 'Feb 9th 2020',
+        guests: 1,
+        category: 'family',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    }
 ]
 
 export default response
