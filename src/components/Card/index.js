@@ -1,5 +1,4 @@
 import React from 'react'
-import './card.css'
 
 const Card = ({ props }) => {
     const { name, dateFrom, dateTo, guests, category, image, copy } = props
@@ -11,7 +10,7 @@ const Card = ({ props }) => {
         <div className="card-wrap">
             <h4 className="card-name">{name}</h4>
             <div className="img-row">
-                <img className="image" src={cardImage} alt="card-img" />}
+                <img className="image" src={cardImage} alt="card-img" />
             </div>
             <p className="category">{category}</p>
 
