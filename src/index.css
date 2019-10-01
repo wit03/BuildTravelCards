@@ -5,6 +5,10 @@ body {
     color: darkslategray;
 }
 
+#root {
+    width: 100%;
+}
+
 .header-wrap {
     border: 1px dotted lightslategray;
     width: 100%;
@@ -22,26 +26,33 @@ body {
 
 .trips-cards-wrap {
     display: flex;
-    flex-flow: row wrap;
-    width: 75rem;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: flex-start;
 }
 
 @media only screen and (max-width: 640px) {
     .trips-wrap {
         align-items: center;
-    }
-    .trips-cards-wrap {
-        flex-direction: column;
+        margin: 0 auto;
     }
 }
 
 .card-wrap {
     border: 1px solid lightgray;
     margin: 0.4rem;
-    flex: 1;
     padding: 0.6rem;
     max-width: 24rem;
     min-width: 20rem;
+}
+
+@media only screen and (max-width: 1145px) {
+    .card-wrap {
+        margin: 0.4rem auto;
+        min-width: 100px;
+        max-width: 100%;
+    }
 }
 
 .category {
