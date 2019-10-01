@@ -25,11 +25,8 @@ body {
 }
 
 .trips-cards-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-    margin: 0 auto;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media only screen and (max-width: 640px) {
@@ -43,15 +40,11 @@ body {
     border: 1px solid lightgray;
     margin: 0.4rem;
     padding: 0.6rem;
-    max-width: 20rem;
-    min-width: 18rem;
 }
 
-@media only screen and (max-width: 1145px) {
-    .card-wrap {
-        margin: 0.4rem auto;
-        min-width: 100px;
-        max-width: 100%;
+@media only screen and (max-width: 968px) {
+    .trips-cards-wrap {
+        grid-template-columns: none;
     }
 }
 
