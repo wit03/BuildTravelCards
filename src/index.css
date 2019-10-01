@@ -5,6 +5,10 @@ body {
     color: darkslategray;
 }
 
+#root {
+    width: 100%;
+}
+
 .header-wrap {
     border: 1px dotted lightslategray;
     width: 100%;
@@ -46,6 +50,8 @@ body {
 @media only screen and (max-width: 1145px) {
     .card-wrap {
         margin: 0.4rem auto;
+        min-width: 100px;
+        max-width: 100%;
     }
 }
 
