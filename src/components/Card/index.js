@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({props}) => {
     const {name, dateFrom, dateTo, guests, category, image, copy} = props
     /* eslint-disable import/no-dynamic-require */
-    /* eslint-disable global-require*/
+    /* eslint-disable global-require */
     const cardImage = require(`../../assets/${image}`)
     return (
         <div className="card-wrap">
