@@ -22,6 +22,9 @@ body {
 
 .heading {
     padding: 0 0.6rem;
+    text-shadow: 2px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .trips-cards-wrap {
@@ -40,6 +43,8 @@ body {
     margin: 1rem;
     padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid lightgray;
+    width: 90%;
 }
 
 @media only screen and (max-width: 968px) {

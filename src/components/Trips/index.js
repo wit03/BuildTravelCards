@@ -2,6 +2,7 @@ import React from 'react'
 import response from '../../response/response'
 import Card from '../Card'
 
+
 const Trips = () => (
   <div className="trips-wrap">
     <h4 className="heading">view latest trips</h4>
