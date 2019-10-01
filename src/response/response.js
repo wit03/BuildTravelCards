@@ -69,7 +69,7 @@ const response = [
     },
     {
         name: 'India',
-        image: 'India.jpg',
+        image: 'india.jpg',
         dateFrom: 'Dec 2nd 2019',
         dateTo: 'Feb 9th 2020',
         guests: 1,
