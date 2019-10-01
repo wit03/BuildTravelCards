@@ -56,6 +56,16 @@ const response = [
         category: 'weekend break',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'Midsummer in Helsinki',
+        image: 'helsinki.jpg',
+        dateFrom: 'June 19th 2020',
+        dateTo: 'June 21th 2020',
+        guests: 2,
+        category: 'weekend break',
+        copy:
+            'Next level vexillologist taiyaki migas cloud bread post-ironic. Offal selvage gastropub bitters.'
     }
 ]
 
