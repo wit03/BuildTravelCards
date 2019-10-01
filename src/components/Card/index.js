@@ -1,7 +1,13 @@
 import React from 'react'
 
+
+
+
+
+
 const Card = ({props}) => {
-const { name, dateFrom, dateTo, guests, category, image, copy } = props;
+const { name, dateFrom, dateTo, guests, transport, category, image, copy } = props;
+console.log(image)
     return (<div className='card-wrap'>
       <h4 className='card-name'>{name}</h4>
       <div className='img-row'>
