@@ -10,7 +10,7 @@ body {
 }
 
 .header-wrap {
-    border: 1px dotted lightslategray;
+    border: 1px solid lightslategray;
     width: 100%;
 }
 
@@ -94,4 +94,6 @@ body {
     cursor: pointer;
     text-shadow: 2px 2px 20px rgb(42, 143, 129);
     transform: rotate(-360deg);
+    border-radius:5px;
+    border:1px solid rgb(42, 143, 129);
 }
