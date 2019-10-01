@@ -68,6 +68,16 @@ const response = [
             'Next level vexillologist taiyaki migas cloud bread post-ironic. Offal selvage gastropub bitters.'
     },
     {
+        name: 'Gardens of Damyang',
+        image: 'korea.jpg',
+        dateFrom: 'May 22nd 2020',
+        dateTo: 'May 30th 2020',
+        guests: 2,
+        category: 'adventure',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
         name: 'India',
         image: 'india.jpg',
         dateFrom: 'Dec 2nd 2019',
@@ -79,4 +89,4 @@ const response = [
     }
 ]
 
-export default response
+export default response;

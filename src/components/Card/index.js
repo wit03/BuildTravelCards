@@ -5,11 +5,12 @@ const Card = ({ props }) => {
     /* eslint-disable import/no-dynamic-require */
     /* eslint-disable global-require */
     const cardImage = require(`../../assets/${image}`)
+
     return (
         <div className="card-wrap">
             <h4 className="card-name">{name}</h4>
             <div className="img-row">
-                <img className="image" src={cardImage} alt="card-img" />
+                <img className="image" src={cardImage} alt="card-img" />}
             </div>
             <p className="category">{category}</p>
 
