@@ -66,7 +66,7 @@ const response = [
         category: 'weekend break',
         copy:
             'Next level vexillologist taiyaki migas cloud bread post-ironic. Offal selvage gastropub bitters.'
-    }
+    },
     {
         name: 'India',
         image: 'India.jpg',
