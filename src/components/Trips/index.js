@@ -1,6 +1,7 @@
 import React from 'react'
 import response from '../../response/response'
 import Card from '../Card'
+import './trips.css'
 
 const Trips = () => (
   <div className="trips-wrap">
