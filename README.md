@@ -4,53 +4,55 @@
 
 Looking for a little more than just adding your name to the ReadMe? Contribute a little or a lot, depending on your skill level and challenge you're seeking, to crowd-build a basic trips and travel site.
 
-## Getting started
+### Getting started
 
 Fork the repo, npm i, npm start.
 
-It's pretty basic! But that's OK. There's plenty to do.
+It's pretty basic! But that's OK. There's plenty to do. Feel free to simply PR the things you'd like to do, or create an issue first.
 
-# Easy tasks
-
-## Add a new trip
+### Add a new trip
 
 Go to '''response.js''', a fake data object, and add a trip of your choice. Follow the format given and don't change any of the key names. Consider adding an image, too - 640x420px, if you don't want to worry about resizing it.
 
-## Fix the CSS
+### Fix the CSS
 
 It's pretty scrappy, so feel free to clean up some elements as you see fit.
 
-## Install ESLint and Prettier
+### Install ESLint and Prettier
 
-Set some standards!
+Set some standards! Can we get them running on save?
 
-## Create the Nav area
+### Create the Nav area
 
 Dropdowns? Expose new menu bars? Play with animation and bring the navigation to life.
 
-## Dates
+### Dates
 
 The dates are strings, which isn't optimal. Use Javascript's Date methods to set them as strings in the response, then parse neatly on the front-end.
 
-## Sorts and filters
+### Sorts and filters
 
 Why not give the user the ability to show only a certain category, or sort by some criteria?
 
-## Footer
+### Footer
 
 Sticky, floating, only appears on hover? It's up to you.
 
-## CSS Grid
+### CSS Grid
 
-Flex is great but may not be robust enough; Grid would work well here.
+Flex is great but may not be robust enough for this layout; Grid would work well here.
 
-## CSS Solution
+### CSS Solution
 
 I'm a fan of Styled Components, but anything goes. A more organised and re-usable system would be beneficial.
 
-## Testing
+### Testing
 
 Keen to test out a new testing library? With some functionality in place, this could be a good playground.
+
+### Single page view
+
+Click a card and view the trip alone, with further information.
 
 
 
