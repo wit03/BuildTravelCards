@@ -4,13 +4,15 @@
 
 Looking for a little more than just adding your name to the ReadMe? Contribute a little or a lot, depending on your skill level and challenge you're seeking, to crowd-build the front-end of a basic trips and travel site. Add useful features and components, improve the styling, practise your React and maybe test out that library you always wanted to try.
 
-[This is purely a playground for fun and practise. It is not a live project :) ]
+*This is purely a playground for fun and practise. It is not a live project :) *
 
 ### Getting started
 
 Fork the repo, npm i, npm start.
 
 It's pretty basic! But that's OK. There's plenty to do. Feel free to simply PR the things you'd like to do, or create an issue first.
+
+*Remember to check your PRs and resolve any conflicts! Merging in master should do the trick.*
 
 ### Add a new trip
 
