@@ -39,7 +39,7 @@ const response = [
     },
     {
         name: 'Weekend at an ice hotel',
-        image: '',
+        image: 'icehotel.jpg',
         dateFrom: 'Jan 14th 2020',
         dateTo: 'Jan 16th 2020',
         guests: 4,
