@@ -86,7 +86,17 @@ const response = [
         category: 'family',
         copy:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'A weekend in Vancouver',
+        image: 'vancouver.jpg',
+        dateFrom: 'Oct 5st 2019',
+        dateTo: 'Oct 6st 2019',
+        guests: 2,
+        category: 'family',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     }
 ]
 
-export default response;
+export default response
